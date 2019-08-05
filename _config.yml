@@ -16,6 +16,9 @@
 title: Prase
 email: prase@example.com
 description: food
+destination: docs
+#baseurl: ""
+baseurl: "/su-jekyll-fitness"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -36,3 +39,8 @@ exclude:
  - vendor/cache/
  - vendor/gems/
  - vendor/ruby/
+ - docs
+ - _assets
+ - gulpfile.js
+ - package.json
+ - package-lock.json
