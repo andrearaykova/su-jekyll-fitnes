@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c6a8abb-0777-463d-ba28-ad288c5b9acc" name="Default Changelist" comment="" />
+    <list default="true" id="4c6a8abb-0777-463d-ba28-ad288c5b9acc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="html" value="3" />
           <entry key="markdown" value="1" />
           <entry key="md" value="2" />
@@ -28,21 +33,22 @@
         <counts>
           <entry key="HTML" value="3" />
           <entry key="Markdown" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="133" />
+          <entry key="html" value="181" />
           <entry key="markdown" value="4" />
-          <entry key="md" value="8" />
+          <entry key="md" value="19" />
           <entry key="yml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="133" />
-          <entry key="Markdown" value="12" />
+          <entry key="HTML" value="181" />
+          <entry key="Markdown" value="23" />
           <entry key="YAML" value="18" />
         </counts>
       </usages-collector>
@@ -65,18 +71,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/404.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="30">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.md">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -100,22 +115,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about.md">
+        <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="270">
-                <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+                <caret line="18" selection-start-line="18" selection-end-line="18" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="285">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="e#359#365#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,15 +147,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/_posts/2019-08-05-welcome-to-jekyll.markdown" />
-        <option value="$PROJECT_DIR$/404.html" />
-        <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/about.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/main.html" />
+        <option value="$PROJECT_DIR$/404.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.md" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -155,11 +178,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="599" />
+    <option name="x" value="641" />
     <option name="y" value="23" />
-    <option name="width" value="681" />
+    <option name="width" value="639" />
     <option name="height" value="724" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -189,8 +213,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565004370686" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565007494215" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -257,15 +282,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565003347082</updated>
-      <workItem from="1565003351533" duration="828000" />
+      <workItem from="1565003351533" duration="1727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="828000" />
+    <option name="totallyTimeSpent" value="1727000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="599" y="23" width="681" height="724" extended-state="0" />
+    <frame x="641" y="23" width="639" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -273,7 +298,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2488263" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26633167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
@@ -314,23 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
@@ -345,11 +353,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.md">
+    <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="270">
-            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <caret line="18" selection-start-line="18" selection-end-line="18" />
           </first_editor>
           <second_editor />
         </state>
@@ -357,8 +365,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="285">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#359#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
