@@ -139,6 +139,39 @@ blockquote .author:before {
       .site .site-header nav {
         margin-left: auto; } }
 
+.img {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-left: 5em; }
+
+.text h3 {
+  margin-top: 1rem;
+  margin-left: 3.5rem;
+  text-align: left;
+  color: var(--color-body-text); }
+
+.text p {
+  text-align: right;
+  margin-left: 20rem; }
+
+.text span {
+  font-weight: bold;
+  font-family: italic, serif;
+  color: var(--color-link-default); }
+
+.section {
+  margin-bottom: -2rem; }
+
+.info {
+  margin-left: 4rem; }
+
+h1 {
+  text-align: center;
+  margin-left: 8em; }
+
 .site-header {
   border-bottom: 1px solid var(--color-border-default);
   margin-bottom: var(--spacing-layout-elements);
@@ -153,6 +186,7 @@ blockquote .author:before {
     padding: 0.5em 0; }
 
 .site-footer {
+  text-align: center;
   border-top: 1px solid var(--color-border-default);
   margin-top: var(--spacing-layout-elements);
   padding-top: calc( var(--spacing-layout-elements) / 2); }

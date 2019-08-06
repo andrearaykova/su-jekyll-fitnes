@@ -1,0 +1,32 @@
+.img {
+  //background: url("https://www.obekti.bg/sites/default/files/styles/article_large/public/images/shutterstock_749969473.jpg?itok=tfs4Kb2u") no-repeat center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-left: 5em;
+
+}
+
+.text {
+  & h3 {
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+    text-align: left;
+    color: var(--color-body-text);
+  }
+  & p {
+    text-align: right;
+    margin-left: 20rem;
+  }
+  & span{
+    font-weight: bold;
+    font-family: italic, serif;
+    color: var(--color-link-default);
+  }
+}
+
+.section{
+  margin-bottom: -2rem;
+}
