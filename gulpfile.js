@@ -23,7 +23,7 @@ gulp.task("jekylldev", function () {
 
 // Jekyll
 gulp.task("jekyllprod", function () {
-    return cp.spawn("bundle", ["exec", "jekyll", "build --baseurl /su-jekyll-fitnes"], {
+    return cp.spawn("bundle", ["exec", "jekyll", "build --baseurl /su-jekyll-fitness"], {
         stdio: "inherit",
         shell: true
     });
