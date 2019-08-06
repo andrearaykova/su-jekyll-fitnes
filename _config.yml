@@ -13,17 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Prase
+title: Functional
 email: prase@example.com
 description: food
 destination: docs
-#baseurl: ""
-baseurl: "/su-jekyll-fitness"
+#baseurl: "" # work here
+baseurl: "/su-jekyll-fitness" #commit here
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  andrearaykova
 
 # Build settings
+future: true
 markdown: kramdown
 plugins:
   - jekyll-feed
@@ -44,3 +45,29 @@ exclude:
  - gulpfile.js
  - package.json
  - package-lock.json
+
+ navigation:
+ - url: /blog/
+   text: Blog
+   items:
+   - url: /contacts/
+     text: Contacts
+
+ - url: /about/
+   text: About
+   items:
+   - url: /contacts
+     text: Contacts
+
+ - url: /gallery/
+   text: Gallery
+   icon: fa-id-card-alt
+   items:
+   - url: /contacts
+     text: Contacts
+
+ - url: /contacts/
+   text: Contacts
+   items:
+   - url: /contacts/map/
+     text: Find us
