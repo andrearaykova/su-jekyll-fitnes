@@ -17,8 +17,8 @@ title: Functional Physique
 email: prase@example.com
 description: food
 destination: docs
-#baseurl: "" # work here
-baseurl: "/su-jekyll-fitness" #commit here
+baseurl: "" # work here
+#baseurl: "/su-jekyll-fitness" #commit here
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  andrearaykova
