@@ -1,0 +1,24 @@
+.img{
+  .site-main {
+    background: url("https://www.obekti.bg/sites/default/files/styles/article_large/public/images/shutterstock_749969473.jpg?itok=tfs4Kb2u") no-repeat center center;
+    background-size: cover;
+    width: 50em;
+    height: 30em;
+    position: relative;
+    overflow: hidden;
+    margin-left: 5em;
+  }
+
+  .site-main .text {
+    margin-top: 23em;
+    color: #FFFFFF;
+  }
+
+  .site-main .text h3{
+    text-align: left;
+  }
+
+  .site-main .text p {
+    text-align: right;
+  }
+}

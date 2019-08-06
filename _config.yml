@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Functional
+title: Functional Physique
 email: prase@example.com
 description: food
 destination: docs
@@ -27,47 +27,36 @@ github_username:  andrearaykova
 future: true
 markdown: kramdown
 plugins:
-  - jekyll-feed
+- jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
- - Gemfile
- - Gemfile.lock
- - node_modules
- - vendor/bundle/
- - vendor/cache/
- - vendor/gems/
- - vendor/ruby/
- - docs
- - _assets
- - gulpfile.js
- - package.json
- - package-lock.json
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+- docs
+- _assets
+- gulpfile.js
+- package.json
+- package-lock.json
 
- navigation:
- - url: /blog/
-   text: Blog
-   items:
-   - url: /contacts/
-     text: Contacts
-
- - url: /about/
-   text: About
-   items:
-   - url: /contacts
-     text: Contacts
-
- - url: /gallery/
-   text: Gallery
-   icon: fa-id-card-alt
-   items:
-   - url: /contacts
-     text: Contacts
-
- - url: /contacts/
-   text: Contacts
-   items:
-   - url: /contacts/map/
-     text: Find us
+navigation:
+- url: /menu/
+  text: Menu
+  icon: fa-bars
+  items:
+  - url: /achievements/
+    text: Аchievements
+    icon: fa-medal
+  - url: /nutrition/
+    text: Nutrition
+    icon: fa-utensils
+  - url: /contacts
+    text: Contacts
+    icon: fa-id-card-alt
