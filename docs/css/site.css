@@ -119,18 +119,26 @@ blockquote .author:before {
 
 .site {
   max-width: var(--layout-main-width);
-  margin: 0 auto;
   padding: 2em; }
   @media (min-width: 1024px) {
     .site {
+      margin: 0 auto;
       display: grid;
       grid-template-columns: 2fr 1fr;
       grid-column-gap: 4em;
-      grid-template-areas: "header header" "main sidebar" "footer footer"; }
+      grid-template-areas: "header header" "main main" "footer footer"; }
       .site .site-header {
         grid-area: header; }
       .site .site-main {
         grid-area: main; }
+        .site .site-main .article {
+          padding: var(--spacing-layout-elements); }
+        .site .site-main .article h3 {
+          text-align: center; }
+        .site .site-main .article .media img {
+          width: 30%;
+          float: right;
+          height: auto; }
       .site .site-footer {
         grid-area: footer; }
       .site .site-header {
@@ -140,22 +148,16 @@ blockquote .author:before {
         margin-left: auto; } }
 
 .img {
-  background-repeat: no-repeat;
-  background-size: 100%;
-  display: flex;
-  width: 100%;
-  height: auto;
-  margin-left: 5em; }
+  display: block;
+  margin: 0 auto;
+  width: 92%; }
 
 .text h3 {
-  margin-top: 1rem;
-  margin-left: 3.5rem;
-  text-align: left;
+  text-align: center;
   color: var(--color-body-text); }
 
 .text p {
-  text-align: right;
-  margin-left: 20rem; }
+  text-align: center; }
 
 .text span {
   font-weight: bold;
@@ -166,11 +168,7 @@ blockquote .author:before {
   margin-bottom: -2rem; }
 
 .info {
-  margin-left: 4rem; }
-
-h1 {
-  text-align: center;
-  margin-left: 8em; }
+  margin-left: 3.5rem; }
 
 .site-header {
   border-bottom: 1px solid var(--color-border-default);
