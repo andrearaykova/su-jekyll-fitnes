@@ -150,7 +150,8 @@ blockquote .author:before {
 .img {
   display: block;
   margin: 0 auto;
-  width: 92%; }
+  width: 100%;
+  height: auto; }
 
 .text h3 {
   text-align: center;
@@ -166,9 +167,6 @@ blockquote .author:before {
 
 .section {
   margin-bottom: -2rem; }
-
-.info {
-  margin-left: 3.5rem; }
 
 .site-header {
   border-bottom: 1px solid var(--color-border-default);
@@ -364,3 +362,20 @@ blockquote .author:before {
   100% {
     top: 0;
     left: 0; } }
+
+.info {
+  margin-left: 3.5rem; }
+
+section {
+  margin-bottom: -3rem; }
+
+h4 {
+  text-align: center;
+  font-weight: bold; }
+
+img {
+  display: block;
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  padding: 1rem 0 2rem 0; }

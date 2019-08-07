@@ -47,14 +47,14 @@ exclude:
 - package-lock.json
 
 navigation:
-- url: /menu/
+- url:
   text: Menu
   icon: fa-bars
   items:
-  - url: /achievements/
-    text: Аchievements
-    icon: fa-medal
-  - url: /nutrition/
+  - url: /exercises
+    text: Еxercises
+    icon: fa-dumbbell
+  - url: /nutrition
     text: Nutrition
     icon: fa-utensils
   - url: /contacts
