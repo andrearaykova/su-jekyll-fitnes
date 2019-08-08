@@ -133,6 +133,8 @@ blockquote .author:before {
         grid-area: main; }
         .site .site-main .article {
           padding: var(--spacing-layout-elements); }
+        .site .site-main .article:nth-last-child(1) {
+          margin-bottom: 4em; }
         .site .site-main .article h3 {
           text-align: center; }
         .site .site-main .article .media img {
@@ -146,12 +148,15 @@ blockquote .author:before {
         align-items: center; }
       .site .site-header nav {
         margin-left: auto; } }
+  @media (max-width: 1023px) {
+    .site .article:nth-last-child(1) {
+      margin-bottom: 4em; } }
 
-.img {
+.section .img {
   display: block;
-  margin: 0 auto;
-  width: 100%;
-  height: auto; }
+  width: 96%;
+  height: auto;
+  margin: 0 auto; }
 
 .text h3 {
   text-align: center;

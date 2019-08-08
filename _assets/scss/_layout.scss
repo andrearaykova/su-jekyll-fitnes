@@ -20,6 +20,10 @@
         padding: var(--spacing-layout-elements);
       }
 
+      & .article:nth-last-child(1) {
+        margin-bottom: 4em;
+      }
+
       & .article h3 {
         text-align: center;
       }
@@ -46,4 +50,9 @@
     }
   }
 
+  @include bp(mobile) {
+    & .article:nth-last-child(1) {
+      margin-bottom: 4em;
+    }
+  }
 }
