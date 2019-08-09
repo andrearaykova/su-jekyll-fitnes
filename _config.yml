@@ -47,7 +47,7 @@ exclude:
 - package-lock.json
 
 navigation:
-- url:
+- url: /menu
   text: Menu
   icon: fa-bars
   items:

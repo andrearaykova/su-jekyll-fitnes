@@ -116,11 +116,6 @@ blockquote .author:before {
       display: block; }
       .button-wrapper .button + .button {
         margin-left: 1em; }
-  @media (max-width: 1023px) {
-    .button .no-touch .main-menu li:hover ul,
-    .button .no-touch .filters li:hover ul {
-      z-index: 99;
-      display: block; } }
 
 .site {
   max-width: var(--layout-main-width);
@@ -389,3 +384,13 @@ img {
   height: auto;
   margin: 0 auto;
   padding: 1rem 0 2rem 0; }
+
+.menu ul {
+  list-style-type: none; }
+
+.menu {
+  text-align: center;
+  margin: -1rem; }
+
+.menu ul li {
+  padding: 7px; }

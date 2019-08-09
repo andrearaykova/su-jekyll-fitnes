@@ -33,12 +33,4 @@
       }
     }
   }
-
-  @include bp(mobile) {
-    .no-touch .main-menu li:hover ul,
-    .no-touch .filters li:hover ul {
-      z-index: 99;
-      display: block;
-    }
-  }
 }
