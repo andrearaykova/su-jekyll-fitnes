@@ -1,11 +1,12 @@
-.menu ul {
-  list-style-type: none;
-}
 .menu {
   text-align: center;
-margin: -1rem;
-}
+  margin: -1rem;
 
-.menu ul li{
-  padding: 7px;
+  & ul {
+    list-style-type: none;
+  }
+
+  & ul li {
+    padding: 7px;
+  }
 }

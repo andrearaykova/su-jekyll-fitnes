@@ -385,12 +385,10 @@ img {
   margin: 0 auto;
   padding: 1rem 0 2rem 0; }
 
-.menu ul {
-  list-style-type: none; }
-
 .menu {
   text-align: center;
   margin: -1rem; }
-
-.menu ul li {
-  padding: 7px; }
+  .menu ul {
+    list-style-type: none; }
+  .menu ul li {
+    padding: 7px; }
