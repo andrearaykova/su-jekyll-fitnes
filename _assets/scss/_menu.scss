@@ -1,6 +1,7 @@
 .menu {
   text-align: center;
   margin: -1rem;
+  margin-left: -6rem;
 
   & ul {
     list-style-type: none;
@@ -8,5 +9,10 @@
 
   & ul li {
     padding: 7px;
+  }
+
+  @include bp(mobile) {
+   text-align: center;
+    margin-left: -5rem;
   }
 }
