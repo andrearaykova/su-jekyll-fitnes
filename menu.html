@@ -6,21 +6,22 @@ permalink: /menu/
 <section>
     <div class="menu">
         <ul>
-            <li>
-                <a href="https://andrearaykova.github.io/exercises">Exercises</a>
+            {% for item in site.navigation %}
+            <li
+                    {% if item.url == page.url %} class="selected"{% endif %}>
+                {% if item.items %}
+                <ul>
+                    {% for subitem in item.items %}
+                    <li {% if subitem.url== page.url %} class="selected" {% endif %}>
+                        <a href="{{ site.baseurl }}{{ subitem.url }}">
+                            {{ subitem.text }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
             </li>
-
-            <li>
-                <a href="/nutrition">Nutrition</a>
-            </li>
-
-            <li>
-                <a href="/gallery">Gallery</a>
-            </li>
-
-            <li>
-                <a href="/contacts">Contacts</a>
-            </li>
+            {% endfor %}
         </ul>
     </div>
 </section>
