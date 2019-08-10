@@ -57,6 +57,9 @@ navigation:
   - url: /nutrition
     text: Nutrition
     icon: fa-utensils
+  - url: /gallery
+    text: Gallery
+    icon: fa-grip-horizontal
   - url: /contacts
     text: Contacts
     icon: fa-id-card-alt
